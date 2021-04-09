@@ -180,6 +180,7 @@ public class Controller {
 
                     System.out.print("\n-> Ingrese el numero de un producto ");
                     int productIndex = scInt.nextInt();
+                    productIndex = productIndex - 1;
 
                     if (productIndex > products.size() || productIndex < 1) {
                         System.out.println("\n[!] No existe ese producto");
